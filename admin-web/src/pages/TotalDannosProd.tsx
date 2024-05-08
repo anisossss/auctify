@@ -26,7 +26,7 @@ const TotalProds = (props: Props) => {
   return (
     <div className="w-full ">
       <Card
-        title="Total AUCTIFY"
+        title="Total Auctifys"
         value={total}
         label1="Encours"
         value1={encours}

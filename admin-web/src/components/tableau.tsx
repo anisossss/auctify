@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import { API_URL } from "../api/axiosConfig";
 interface Props {
   thName: string;
@@ -58,7 +58,7 @@ const CostumizedTable: React.FC<Props> = ({
           </div>
           <div className="text-xs flex items-center">
             <Link to={{ pathname: `/linkToDetails/${id}` }}>
-              <button className="bg-purple-500 hover:bg-purple-400 text-white py-1 px-6 rounded-xl mr-3">
+              <button className="bg-purple-800 hover:bg-purple-400 text-white py-1 px-6 rounded-xl mr-3">
                 VOIRE FICHE
               </button>
             </Link>
